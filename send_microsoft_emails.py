@@ -252,7 +252,7 @@ BASE_CLOSING = (
 
 TEMPLATES = {
 
-    # ── RECRUITER ────────────────────────────────────────────────────────────
+    # ── RECRUITER ─────────────────────────────────────────────────────────
     # Psychology: get to the point immediately. Prove fit in 3 lines.
     # One clear ask at the end. No corporate filler.
     "recruiter": (
@@ -275,7 +275,7 @@ TEMPLATES = {
         + BASE_CLOSING
     ),
 
-    # ── EXEC / VP ────────────────────────────────────────────────────────────
+    # ── EXEC / VP ─────────────────────────────────────────────────────────
     # Psychology: they have 30 seconds. Lead with value. Be specific and short.
     # The ask is implicit, not explicit — respect their time.
     "exec_vp": (
@@ -445,7 +445,7 @@ def run(app_password: str) -> None:
 # MAIN
 # ---------------------------------------------------------------------------
 def main() -> None:
-    app_password = os.environ.get("GMAIL_APP_PASSWORD", "mqwz vkrc jlrj nymx")
+    app_password = os.environ.get("GMAIL_APP_PASSWORD", "")
     if not app_password and not DRY_RUN:
         raise EnvironmentError(
             "Set GMAIL_APP_PASSWORD before running in LIVE mode.\n"

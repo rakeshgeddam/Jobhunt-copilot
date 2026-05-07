@@ -75,36 +75,36 @@ BASE_CLOSING = (
 TEMPLATES = {
     "hr_talent": (
         "Hi {first_name},\n\n"
-        "I recently applied for the {job_title} role at {company} and wanted to introduce myself directly. I am based in Novi, so the {location} opportunity is a very natural fit, and I am especially interested in the role because it sits at the intersection of applied AI, workflow transformation, and enterprise adoption.\n\n"
-        "Over the last several years, I have been building the kind of AI systems your posting describes. I launched DigiBlinker, a production product serving more than 10,000 monthly active users, where I built agentic AI workflows and Python-based analytics pipelines to support faster product decisions. I also built a retrieval workflow using vector search to surface contextual debugging support, and designed a knowledge-graph-driven AI mentoring platform that personalized recommendations through structured relationships and LLM feedback.\n\n"
-        "What stands out to me about RHP is the opportunity to turn manual enterprise processes into practical AI-assisted workflows across teams. That is the type of work I want to keep doing, not just building models, but helping an organization adopt AI in a way that is useful, reliable, and easy for teams to embrace.\n\n"
+        "I recently applied for the {job_title} role at {company} and wanted to introduce myself directly. I am based in Novi, so the {location} opportunity is a very natural fit, and I am especially [...]"
+        "Over the last several years, I have been building the kind of AI systems your posting describes. I launched DigiBlinker, a production product serving more than 10,000 monthly active users, wh[...]"
+        "What stands out to me about RHP is the opportunity to turn manual enterprise processes into practical AI-assisted workflows across teams. That is the type of work I want to keep doing, not ju[...]"
         + BASE_CLOSING
     ),
     "it_project": (
         "Hi {first_name},\n\n"
-        "I applied for the {job_title} role at {company} and wanted to reach out directly because the mix of AI delivery, enterprise integration, and workflow modernization in the posting matches the work I have been doing recently. I am nearby in Novi, and I would be glad to contribute in a role centered in {location}.\n\n"
-        "My recent work has focused on production AI systems rather than isolated demos. At DigiBlinker, I built agentic workflows, Python pipelines, and API-driven analytics around a live product used by more than 10,000 monthly active users. In project work, I built a RAG-style developer tool using vector search with Qdrant, and I designed a knowledge-graph-based AI platform that combined LLMs, structured relationships, and full-stack delivery. I also have experience integrating AI solutions with APIs, SQL-driven data systems, and business-facing applications.\n\n"
-        "Your role stood out because it is not just about experimentation. It is about deploying AI systems that teams can actually use to improve operations, decision-making, and day-to-day execution. That is exactly the kind of ownership I am looking for.\n\n"
+        "I applied for the {job_title} role at {company} and wanted to reach out directly because the mix of AI delivery, enterprise integration, and workflow modernization in the posting matches the [...]"
+        "My recent work has focused on production AI systems rather than isolated demos. At DigiBlinker, I built agentic workflows, Python pipelines, and API-driven analytics around a live product use[...]"
+        "Your role stood out because it is not just about experimentation. It is about deploying AI systems that teams can actually use to improve operations, decision-making, and day-to-day execution[...]"
         + BASE_CLOSING
     ),
     "finance_risk": (
         "Hi {first_name},\n\n"
-        "I recently applied for the {job_title} role at {company} and wanted to introduce myself. I am based in Novi, so the Farmington Hills location is a strong fit, and I was drawn to the role because of its focus on using AI to improve business operations in a practical way.\n\n"
-        "My background combines AI engineering with data systems and decision support. I built DigiBlinker into a live product with more than 10,000 monthly active users and used Python-based AI workflows and analytics agents to turn usage data into actionable product decisions. I also built a retrieval system using vector search to surface relevant context from historical issues, and designed a knowledge-graph-driven AI platform that personalized recommendations through structured data relationships. Earlier in my career, I automated 6 workflows in a 100+ TB migration at Bank of America, which gave me a strong foundation in data quality, operational reliability, and business-critical systems.\n\n"
-        "What excites me about RHP is the opportunity to apply AI to forecasting, workflow automation, anomaly identification, and enterprise decision support in ways that create real operational value across the business.\n\n"
+        "I recently applied for the {job_title} role at {company} and wanted to introduce myself. I am based in Novi, so the Farmington Hills location is a strong fit, and I was drawn to the role beca[...]"
+        "My background combines AI engineering with data systems and decision support. I built DigiBlinker into a live product with more than 10,000 monthly active users and used Python-based AI workf[...]"
+        "What excites me about RHP is the opportunity to apply AI to forecasting, workflow automation, anomaly identification, and enterprise decision support in ways that create real operational valu[...]"
         + BASE_CLOSING
     ),
     "community_ops": (
         "Hi {first_name},\n\n"
-        "I applied for the {job_title} role at {company} and wanted to send a direct note. I live in Novi, so the Farmington Hills opportunity is a very practical fit, and I am especially interested because the role is focused on using AI to make internal workflows more effective for teams across the organization.\n\n"
-        "In my recent work, I have been building AI systems that are meant to be used, not just demonstrated. At DigiBlinker, I launched a live product used by more than 10,000 monthly active users and built agentic workflows and analytics pipelines around it. I also built a retrieval workflow using vector search to deliver context-aware support, and designed a knowledge-graph-driven AI platform that used structured relationships and LLM reasoning to guide recommendations. At Melo.co, I deployed a Gemini-powered chatbot that automated support workflows for 300 patients each month and reduced manual onboarding work by 15 to 30 minutes per patient.\n\n"
+        "I applied for the {job_title} role at {company} and wanted to send a direct note. I live in Novi, so the Farmington Hills opportunity is a very practical fit, and I am especially interested b[...]"
+        "In my recent work, I have been building AI systems that are meant to be used, not just demonstrated. At DigiBlinker, I launched a live product used by more than 10,000 monthly active users an[...]"
         "That is why the RHP role caught my attention. I would love to help teams move from manual processes to AI-augmented workflows that improve service quality, speed, and consistency.\n\n"
         + BASE_CLOSING
     ),
     "general": (
         "Hi {first_name},\n\n"
-        "I recently applied for the {job_title} role at {company} and wanted to introduce myself directly. I am based in Novi, which makes the Farmington Hills opportunity a strong fit, and I am very interested in the role because it combines applied AI, enterprise systems, and workflow transformation.\n\n"
-        "My recent experience includes building DigiBlinker, a live product used by more than 10,000 monthly active users, where I developed agentic AI workflows and Python-based analytics pipelines. I also built a RAG-style retrieval tool using vector search to surface relevant debugging context, and designed a knowledge-graph-driven AI platform that used LLMs and structured data relationships to personalize recommendations. In addition, I have delivered AI workflow automation in healthcare through a Gemini-powered chatbot that supported 300 patients each month.\n\n"
+        "I recently applied for the {job_title} role at {company} and wanted to introduce myself directly. I am based in Novi, which makes the Farmington Hills opportunity a strong fit, and I am very [...]"
+        "My recent experience includes building DigiBlinker, a live product used by more than 10,000 monthly active users, where I developed agentic AI workflows and Python-based analytics pipelines. [...]"
         "I am reaching out because I would value the chance to learn more about how RHP is thinking about AI adoption across the business and where this role can have the biggest impact.\n\n"
         + BASE_CLOSING
     ),
@@ -218,7 +218,7 @@ def main() -> None:
         reader = csv.DictReader(f)
         contacts = list(reader)
 
-    app_password = os.environ.get("GMAIL_APP_PASSWORD", "mqwz vkrc jlrj nymx")
+    app_password = os.environ.get("GMAIL_APP_PASSWORD", "")
     if not app_password and not DRY_RUN:
         raise EnvironmentError("Set GMAIL_APP_PASSWORD before running in LIVE mode.")
 
