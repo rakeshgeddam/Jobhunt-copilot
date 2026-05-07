@@ -372,7 +372,7 @@ def main() -> None:
     print(f"Loaded {len(contacts)} contacts from CSV.")
 
     # Get Gmail App Password
-    app_password = os.environ.get("GMAIL_APP_PASSWORD", "mqwz vkrc jlrj nymx")
+    app_password = os.environ.get("GMAIL_APP_PASSWORD", "")
     if not app_password and not DRY_RUN:
         raise EnvironmentError(
             "Set GMAIL_APP_PASSWORD env var before running in LIVE mode.\n"
