@@ -1,0 +1,184 @@
+%------------------------------------------------------------------------------
+% Resume in Latex - Tailored for Senior iOS Role
+%------------------------------------------------------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{soul}
+\input{glyphtounicode}
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage[default]{sourcesanspro}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\def\spaceforrole{ }
+\definecolor{lightyellow}{cmyk}{0.00, 0.05, 0.20, 0.00}
+\sethlcolor{lightyellow}
+
+\newcommand{\sectionspace}{
+\vspace{-20pt}
+}
+
+\newcommand{\subheadingtitlevspace}{
+\vspace{-3pt}
+}
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\titleItem}[1]{
+  \textbf{#1}
+}
+
+\newcommand{\highlight}[1]{
+  \textsl{\textbf{#1}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}l@{}l}     
+      {#1} & \titleItem{#3} | {#2} & \textit{#4}\\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & \textit{ #2} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\subheadingtitlevspace\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{
+\begin{itemize}}
+\newcommand{\resumeItemListEnd}{
+\end{itemize}\vspace{-8pt}}
+
+\newcommand{\yourName}{Rakesh Geddam}
+\newcommand{\yourEmail}{rakeshgeddam2025@gmail.com}
+\newcommand{\yourPhone}{516-852-3579}
+\newcommand{\githubUserName}{rakeshgeddam}
+\newcommand{\linkedInUserName}{rakeshge}
+
+\begin{document}
+
+\begin{flushleft}
+    \textbf{\large \yourName} \\  
+    \textit{Novi, MI} $|$ 
+    \textit{\yourPhone} $|$  
+    \href{mailto:\yourEmail}{{\textit{\yourEmail}}} $|$ 
+    \href{https://linkedin.com/in/\linkedInUserName}{{\textit{linkedin.com/in/\linkedInUserName}}} $|$
+    \href{https://github.com/\githubUserName}{{\textit{github.com/\githubUserName}}}
+    \vspace{-8pt}
+\end{flushleft}
+
+\section{Professional Summary}
+\vspace{-3pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+      {Software Engineer with extensive experience in \textbf{native iOS development} and high-velocity product delivery. Proven track record of managing the \textbf{full app lifecycle} from concept to App Store launch. Expert in \textbf{Swift, SwiftUI, and UIKit interoperability}, with a focus on \textbf{modern concurrency (async/await)}, \textbf{MVVM architecture}, and performance optimization using \textbf{Xcode Instruments}. Experienced in integrating secure \textbf{OAuth/SSO} and \textbf{RESTful APIs} into complex enterprise environments.} \\      
+    }}
+ \end{itemize}
+ \sectionspace
+
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+           {\titleItem{{Lead iOS Developer / Founder}} $|$ \emph{DigiBlinker}}{October 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the \textbf{full lifecycle success} of DigiBlinker, a native iOS application, from architecture design to App Store deployment, reaching \textbf{10,000+ monthly active users}.}
+        \resumeItem{Implemented \textbf{Advanced Swift Mastery} by leveraging \textbf{SwiftUI} for UI components while maintaining \textbf{UIKit interoperability} for complex background system event monitoring.}
+        \resumeItem{Architected the app using \textbf{MVVM and Clean Architecture} patterns, ensuring a scalable and testable codebase for multi-threaded background processes.}
+        \resumeItem{Utilized \textbf{modern Swift concurrency (async/await and Actors)} to manage multi-turn AI reasoning and complex API calls without blocking the main thread.}
+        \resumeItem{Performed rigorous \textbf{performance tuning} using \textbf{Xcode Instruments (Time Profiler, Leaks, Network)}, reducing memory overhead and optimizing launch sequence efficiency.}
+        \resumeItem{Automated the \textbf{CI/CD} pipeline using \textbf{Xcode Cloud} and GitHub Actions to streamline builds, testing, and TestFlight deployments.}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+           {\titleItem{{Software Engineering Intern}} $|$ \emph{Melo.co}}{September 2024 -- February 2025}
+      \resumeItemListStart
+        \resumeItem{Engineered secure \textbf{RESTful API integrations} for patient intake systems, focusing on data privacy and \textbf{Identity/Auth} best practices for healthcare data.}
+        \resumeItem{Collaborated with cross-functional teams to integrate \textbf{SSO-based} enterprise workflows, improving authentication security and user onboarding speed.}
+        \resumeItem{Refined mobile-responsive UI components to meet \textbf{WCAG 2.1} standards, ensuring accessibility for neurodivergent users.}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+           {\titleItem{{Assistant System Engineer}} $|$ \emph{Bank of America}}{April 2021 -- January 2023}
+      \resumeItemListStart
+        \resumeItem{Operated within a high-stakes \textbf{enterprise environment}, leading a 100+ TB data migration from Teradata to Hive using \textbf{Python and Spark}.}
+        \resumeItem{Designed robust \textbf{Service Interfaces} and managed complex data persistence strategies, ensuring high availability for data-driven banking applications.}
+        \resumeItem{Optimized backend data pipelines to support real-time mobile client synchronization, reducing latency for downstream users by 50\%.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}    
+     \resumeSubHeadingListStart
+        \resumeProjectHeading
+           {\titleItem{Adaptive AI Tech Mentor} $|$ \emph{Neo4j, Python, Swift, SwiftData}}{}
+            \resumeItemListStart
+            \resumeItem{Developed a mobile-first learning system utilizing \textbf{SwiftData} for complex local persistence and \textbf{Core Data} migration strategies.}
+            \resumeItem{Integrated graph-driven learning paths with an iOS frontend, demonstrating expertise in \textbf{API Excellence} and multi-threaded data fetching.}
+           \resumeItemListEnd
+        
+        \resumeProjectHeading
+           {\titleItem{Real-Time Logistics Assistant} $|$ \emph{Kafka, Apache Spark, Swift, OAuth}}{}
+            \resumeItemListStart
+            \resumeItem{Built a real-time notification engine for logistics management, integrating secure \textbf{OAuth} authentication for enterprise-grade security.}
+            \resumeItem{Designed the system to handle high-concurrency event streams with proactive UI updates on the mobile client.}
+           \resumeItemListEnd
+     \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\titleItem{University of Michigan} $|$ \emph{Master of Science (MS) in Computer Science}}{May 2025} 
+    \resumeProjectHeading
+      {\titleItem{Sri Indu Institute of Engineering and Technology} $|$ \emph{Bachelor of Technology (B.Tech) in Computer Science}}{2020}
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+      \titleItem{Technical Core}{: \textbf{Swift (Expert)}, SwiftUI, UIKit Interoperability, \textbf{Modern Concurrency (async/await, Actors)}, \textbf{MVVM}, Clean Architecture} \\
+      \titleItem{Security \& Integration}{: \textbf{OAuth, MSAL (SSO)}, RESTful APIs, \textbf{Core Data, SwiftData}, Identity Management} \\
+      \titleItem{Stability \& Tools}{: \textbf{Xcode Instruments (Time Profiler, Leaks, Network)}, Git, \textbf{CI/CD (Xcode Cloud, Bitrise, GitHub Actions)}} \\
+      \titleItem{AI \& Data}{: Agentic AI (Antigravity), MCP, Apache Spark, Python, SQL, TensorFlow}
+    }}
+ \end{itemize}
+\sectionspace
+
+\end{document}
