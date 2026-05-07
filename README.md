@@ -16,34 +16,35 @@ graph TD
     end
 
     subgraph "2. Knowledge & Intelligence Layer"
-        BR[BASE_RESUME.MD - Source of Truth]
-        ST[SKILL.md - Agent Intelligence Rules]
-        RU[RECRUITERS_UNDERSTANDING.txt - Hiring Domain Knowledge]
-        TP[technical_projects.md - Project Bank]
-        LT[latex_template.tex - ATS-Optimized Structure]
+        BR["BASE_RESUME.MD - Source of Truth"]
+        ST["SKILL.md - Agent Intelligence Rules"]
+        RU["RECRUITERS_UNDERSTANDING.txt - Hiring Domain Knowledge"]
+        TP["technical_projects.md - Project Bank"]
+        LT["latex_template.tex - ATS-Optimized Structure"]
     end
 
-    subgraph "3. Agentic Orchestrator (The 'Brain')"
-        Research[Context Gathering & File Retrieval]
-        Analysis[JD Decoding: Extracting ATS Keywords & Hidden Needs]
-        Tailor[Tailoring Engine: Applying 'First Bullet Rule' & Impact Formatting]
-        LaTeX[Dynamic LaTeX Generation]
+    subgraph "3. Agentic Orchestrator (The Brain)"
+        Research["Context Gathering & File Retrieval"]
+        Analysis["JD Decoding: Extracting ATS Keywords & Hidden Needs"]
+        Tailor["Tailoring Engine: Applying 'First Bullet Rule' & Impact Formatting"]
+        LaTeX["Dynamic LaTeX Generation"]
     end
 
     subgraph "4. Output & Validation"
-        TEX[resume_company_role.tex]
-        Eval[Evaluation Report: ATS Score & Gap Analysis]
+        TEX["resume_company_role.tex"]
+        Eval["Evaluation Report: ATS Score & Gap Analysis"]
     end
 
     subgraph "5. Post-Processing & Outreach Pipeline"
-        Conversion[tex_to_pdf.py - Automated PDF Generation]
-        Contacts[Apollo Contacts CSV - Lead Discovery]
-        Persona[Persona Detection Logic - HR vs. Peer vs. PM]
-        Outreach[send_email.py - Outreach Engine]
+        Conversion["tex_to_pdf.py - Automated PDF Generation"]
+        Contacts["Apollo Contacts CSV - Lead Discovery"]
+        Persona["Persona Detection Logic - HR vs. Peer vs. PM"]
+        Outreach["send_email.py - Outreach Engine"]
     end
 
-    JD & CMD --> Research
-    Knowledge & Intelligence Layer --> Research
+    JD --> Research
+    CMD --> Research
+    BR & ST & RU & TP & LT --> Research
     Research --> Analysis
     Analysis --> Tailor
     Tailor --> LaTeX
@@ -51,12 +52,12 @@ graph TD
     Tailor --> Eval
     
     TEX --> Conversion
-    Conversion --> PDF[Tailored Resume PDF]
+    Conversion --> PDF["Tailored Resume PDF"]
     
     Contacts --> Outreach
     PDF --> Outreach
     Persona --> Outreach
-    Outreach --> Emails[Personalized Outreach Emails]
+    Outreach --> Emails["Personalized Outreach Emails"]
 ```
 
 ---
